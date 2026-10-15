@@ -9,7 +9,17 @@
 [![Live](https://img.shields.io/badge/live-4%2F5_feeds-blue.svg)](benchmarks/results/live_snapshot.json)
 [![Docker](https://img.shields.io/badge/Docker-ready-blue.svg)](docker-compose.yml)
 
-[🌐 Live web version](docs/preview.html) · [🎬 Demo](#-demo--see-it-working-in-10-seconds) · [🚀 Quickstart](#-quickstart--60-seconds) · [🌱 Beginner guide](#-beginner-guide--read-this-and-you-are-a-professional) · [🧠 Quiz](docs/preview.html#quiz)
+[🌐 Live web version](https://m0-ar.github.io/science-hacks-100-live-benchmark-2026/) · [🎬 Demo](#-demo--see-it-working-in-10-seconds) · [🚀 Quickstart](#-quickstart--60-seconds) · [🌱 Beginner guide](#-beginner-guide--read-this-and-you-are-a-professional) · [🧠 Quiz](https://m0-ar.github.io/science-hacks-100-live-benchmark-2026/preview.html#quiz)
+
+> **View it live — pick any link, all three render the same page in your browser:**
+>
+> | Link | URL |
+> |------|-----|
+> | 🏠 Home (`/`) | https://m0-ar.github.io/science-hacks-100-live-benchmark-2026/ |
+> | 📄 Page (`/preview.html`) | https://m0-ar.github.io/science-hacks-100-live-benchmark-2026/preview.html |
+> | 📁 Docs copy (`/docs/preview.html`) | https://m0-ar.github.io/science-hacks-100-live-benchmark-2026/docs/preview.html |
+>
+> Works whether Pages serves from `/docs` (recommended) or root — mirrors included. Enable at Settings → Pages → Deploy from a branch → `main` + `/docs`.
 
 </div>
 
@@ -155,7 +165,7 @@ git commit -m "docs: web preview + demo"
 git push origin main
 ```
 
-Then GitHub → repo **Settings → Pages → Build and deployment → Source: Deploy from a branch → Branch: `main`, Folder: `/docs`**. Wait ~1 minute → `https://<you>.github.io/<repo>/preview.html`.
+Then GitHub → repo **Settings → Pages → Build and deployment → Source: Deploy from a branch → Branch: `main`, Folder: `/docs`**. Wait ~1 minute → `https://m0-ar.github.io/science-hacks-100-live-benchmark-2026/preview.html` (or `/` and `/docs/preview.html` — all three work, see table at top).
 
 **Option B — Actions (auto on every push).** This repo already includes `.github/workflows/pages.yml`: every push to `main` publishes `docs/` to Pages at the same URL. Keep it if you plan to regenerate the page from results later. Custom domain: Settings → Pages → Custom domain (optional).
 

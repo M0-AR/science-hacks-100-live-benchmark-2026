@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: Science Hacks 100 Live-Verified Benchmark (2026)
+version: 1.0.0
+authors:
+  - family-names: Benchmark
+    given-names: Open Research
+license: MIT
+repository-code: /home/md/src/science-hacks-100-live-benchmark-2026
+keywords: [reproducibility, benchmark, cosmology, evolution, live-data, falsifiability]

@@ -1,0 +1,18 @@
+services:
+  research:
+    build: .
+    volumes:
+      - ./benchmarks/results:/work/benchmarks/results
+      - ./data:/work/data:ro
+    environment:
+      - TZ=UTC
+      - PYTHONHASHSEED=0
+    command: python -m src.benchmark --live off --out benchmarks/results/summary.json
+  verify-live:
+    build: .
+    profiles: ["live"]
+    volumes:
+      - ./benchmarks/results:/work/benchmarks/results
+    environment:
+      - TZ=UTC
+    command: python -m src.fetch_live --out benchmarks/results/live_snapshot.json

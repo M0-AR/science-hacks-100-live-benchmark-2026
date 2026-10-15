@@ -1,0 +1,42 @@
+{
+  "usgs": {
+    "source": "USGS",
+    "live": true,
+    "n": 20,
+    "mean_mag": 4.96,
+    "max_mag": 5.9
+  },
+  "meteo": {
+    "source": "open-meteo",
+    "live": true,
+    "tmax_7d": [
+      20.8,
+      16.8,
+      13.8,
+      13.3,
+      15.0,
+      16.4,
+      14.4
+    ]
+  },
+  "fx": {
+    "source": "frankfurter-ecb",
+    "live": true,
+    "rates": {
+      "EUR": 0.89326,
+      "GBP": 0.75377,
+      "JPY": 158.45
+    }
+  },
+  "btc": {
+    "source": "coingecko",
+    "live": true,
+    "btc_usd": 79814
+  },
+  "nasa": {
+    "source": "nasa-snapshot",
+    "live": false,
+    "n_flares": 12,
+    "note": "Expecting value: line 1 column 1 (char 0)"
+  }
+}
